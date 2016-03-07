@@ -37,7 +37,8 @@ public class Login extends HttpServlet {
 			out.println("</html>");
 			} 
 			else {
-				out.println("You are already logged in!");
+				out.println("<p><font face='Calibri'><h1>You are already logged in!</h1></font></p>");
+				out.println("<p><font face='Calibri'>You must be logged out. <a href='logout.jsp'><b>Click here to logout</b></a>.");
 			}
 		}
 		else {
